@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang web tập code</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+
+      header {
+        background: #0b4b89;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      nav {
+        background: #333;
+        color: white;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px 0;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      footer {
+        background: #f1f1f1;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+      }
+
+      .box {
+        background: #e3f2fd;
+        padding: 15px;
+        border: 1px solid #90caf9;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Xin chào! Đây là trang web tập code</h1>
+    </header>
+
+    <nav>
+      <a href="#">Trang chủ</a>
+      <a href="#">Giới thiệu</a>
+      <a href="#">Liên hệ</a>
+    </nav>
+
+    <main>
+      <section class="box">
+        <h2>Tiêu đề mục 1</h2>
+        <p>Bạn có thể viết đoạn văn ở đây để thử HTML cơ bản.</p>
+      </section>
+
+      <section class="box">
+        <h2>Tiêu đề mục 2</h2>
+        <ul>
+          <li>Học HTML</li>
+          <li>Học CSS</li>
+          <li>Học JavaScript</li>
+        </ul>
+      </section>
+
+      <section class="box">
+        <h2>Form liên hệ</h2>
+        <form>
+          <label>Tên: <input type="text" name="name" /></label><br /><br />
+          <label>Email: <input type="email" name="email" /></label><br /><br />
+          <label
+            >Tin nhắn:<br />
+            <textarea name="message" rows="4"></textarea></label
+          ><br /><br />
+          <button type="submit">Gửi</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 - Trang tập code HTML</p>
+    </footer>
+  </body>
+</html>
